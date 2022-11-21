@@ -222,6 +222,7 @@ footer p {
 	border-radius: 15px;
 	align-items: center;
 	height: auto;
+    overflow: auto;
 }
 
 .ficha-img {
