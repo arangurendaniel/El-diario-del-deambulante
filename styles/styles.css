@@ -8,6 +8,7 @@ body {
     background-color: black;
 }
 
+/* Logo de la pagina */
 .fa-person-hiking {
     margin-right: 10px;
     font-size: 2rem;
@@ -23,7 +24,7 @@ body {
 	width: 100%;
 	height: 100%;
 }
-
+/* Elementos de la pagina de inicio - Comienzo */ 
 .page-index {
 	width: 100vw;
 	max-width: 1200px;
@@ -139,28 +140,13 @@ h1, h2 {
 	right: 0%;
 }
 
-.gallery {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+.footer-index {
+    margin-top: 20px;
 }
 
-.gallery-picture {
-	width: 250px;
-	height: 250px;
-	margin: 10px;
-	border-radius: 15px;
-	object-fit: cover;
-    transition: 0.5s;
-}
+/* Elementos de la pagina de inicio - Fin*/ 
 
-.gallery-picture:hover {
-    scale: 1.2;
-}
-
+/* Elementos del footer de todo el sitio web - Comienzo */
 footer {
 	background-color: black;
 	color: white;
@@ -169,11 +155,6 @@ footer {
 	height: 4rem;
 	position: absolute;	
 	bottom: 0;
-
-}
-
-.footer-index {
-    margin-top: 20px;
 }
 
 footer p {
@@ -183,6 +164,14 @@ footer p {
 	padding-top: 10px;
 	padding-bottom: 10px;	
 }
+
+.footer-other-than-index {
+    height: 3rem;
+}
+
+/* Elementos del footer de todo el sitio web - Fin */
+
+/* Elementos de la pagina acerca de mi - Comienzo */
 
 .page-acerca {
 	width: 100vw;
@@ -217,6 +206,10 @@ footer p {
 	font-weight: bold;
 }
 
+/* Elementos de la pagina acerca de mi - Fin */
+
+/* Elementos de la pagina criaturas magicas - Comienzo */
+
 .ficha-criatura {
 	width: 80vw;
 	min-width: 300px;
@@ -244,6 +237,36 @@ footer p {
 	margin-left: 15px;
 	text-align: justify;
 }
+
+/* Elementos de la pagina criaturas magicas - Fin */
+
+/* Elementos de la pagina galería - Comienzo */
+
+.gallery {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.gallery-picture {
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+	border-radius: 15px;
+	object-fit: cover;
+    transition: 0.5s;
+}
+
+.gallery-picture:hover {
+    scale: 1.2;
+}
+
+/* Elementos de la pagina galería - Fin */
+
+/* Elementos de la pagina contacto - Comienzo */
 
 .body-contact {
 	background-image: url("../assets/cueva.jpg");
@@ -296,9 +319,9 @@ footer p {
 	transition: 0.3s;
 }
 
-.footer-other-than-index {
-    height: 3rem;
-}
+/* Elementos de la pagina contacto - Fin */
+
+/* Media querries - Comienzo */
 
 @media screen and (max-width: 450px) {
 	.ficha-parrafo {
@@ -320,3 +343,5 @@ footer p {
         font-size: 1rem;
     }
 }
+
+/* Media querries - Fin */
