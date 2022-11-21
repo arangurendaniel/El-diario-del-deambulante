@@ -323,7 +323,7 @@ footer p {
 
 /* Media querries - Comienzo */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
 	.ficha-parrafo {
 		font-size: 0.7rem;
 	}
